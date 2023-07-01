@@ -25,7 +25,7 @@ export default function DeleteProductPage(){
 
     return(
     <Layout>
-        <h1 className="text-center">Do you want to delete product &nbsp;"{productInfo?.title}"? </h1>
+        <h1 className="text-center">Do you want to delete product &nbsp;&quot;{productInfo?.title}&quot;? </h1>
         <div className="flex gap-2 justify-center">
         <button className="btn-red" onClick={deleteProduct}> YES </button>
         <button className="btn-default" onClick={goBack}> NO </button>
